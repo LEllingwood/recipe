@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+<title>Recipe:</title>
+    <h2 style="color:FF5733">Would you like to learn how to bake?</h2>
+    <h3>Here's your recipe: {{ context.name }}</h3>
+    <h3>{{ context.instructions }}!</h3>
+    <h3>This will yield {{ context.yields }}.</h3>
+    <h3>Make sure you leave enough time.  This recipe takes {{ context.time }} and you have to have these ingredients on hand: {{ context.ingredients }}.</h3>
+    <h4>To see this online, check out {{ context.url }}</h4>
